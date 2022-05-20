@@ -77,5 +77,5 @@ class ParseAnime {
 
 const anime = new ParseAnime()
 console.time('parse')
-const data = await anime.parse(20)
+const data = await anime.parse(3)
 console.timeEnd('parse')
